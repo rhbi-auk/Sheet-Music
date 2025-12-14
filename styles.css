@@ -1,0 +1,56 @@
+body {
+    font-family: Roboto;
+}
+
+.note {
+    font-size: 1em;
+    color: darkgray;
+}
+
+.song-label {
+    color: #D64933;
+    text-decoration: underline;
+}
+
+.artist-label {
+    color: #0661d8;
+    text-decoration: underline;
+}
+
+.song-name {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    -webkit-text-stroke: 0.035em;
+    -webkit-text-stroke-color: #D64933;
+}
+
+.song-artist {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    -webkit-text-stroke: 0.035em;
+    -webkit-text-stroke-color: #0661d8;
+}
+
+.sheet-container {
+    background-color: rgb(0, 0, 0);
+    border: 5px;
+    border-style: outset;
+    border-radius: 25px;
+    border-color: gray;
+    color: white;
+}
+
+.container-contents {
+    padding-left: 5%;
+}
+
+.url-list {
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.sheet-music-label {
+    color: #f4e809;
+}
