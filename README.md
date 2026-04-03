@@ -1,11 +1,8 @@
-# Sheet-Music
-https://rhbi-auk.github.io/Sheet-Music/
+# Projects
+https://rhbi-auk.github.io
 
-[![Build Status](https://github.com/rhbi-auk/Sheet-Music/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/rhbi-auk/Sheet-Music/actions)
-[![Website](https://img.shields.io/website?url=https://rhbi-auk.github.io/Sheet-Music)](https://rhbi-auk.github.io/Sheet-Music)
-![GitHub last commit](https://img.shields.io/github/last-commit/rhbi-auk/Sheet-Music)
-![GitHub repo size](https://img.shields.io/github/repo-size/rhbi-auk/Sheet-Music)
+[![Build Status](https://github.com/rhbi-auk/rhbi-auk.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/rhbi-auk/rhbi-auk.github.io/actions)
+[![Website](https://img.shields.io/website?url=https://rhbi-auk.github.io)](https://rhbi-auk.github.io)
+![GitHub last commit](https://img.shields.io/github/last-commit/rhbi-auk/rhbi-auk.github.io)
+![GitHub repo size](https://img.shields.io/github/repo-size/rhbi-auk/rhbi-auk.github.io)
 
-Simple website where you can find downloads and links to music transcriptions I have created.
-
-I have plans to beautify the page once I find time and motivation to.
