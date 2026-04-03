@@ -1,0 +1,1 @@
+alert("Disclaimer: I do not own the copyrights to any of the music contained on this website! I do not make any money from transcribing nor hosting said materials. This is purely a passion project and will forever remain as such!")
