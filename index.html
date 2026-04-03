@@ -8,7 +8,18 @@ subtitle: Music, code, and other stuff
     <h2>Projects</h2>
 
     <a href="/sheet-music" style="text-decoration: none;">
-        <div style="border: 2px solid #008AFF; border-radius: 8px; padding: 20px; margin-bottom: 20px; cursor: pointer;">
+        <div style="
+        border: 2px solid #008AFF; 
+        border-radius: 8px; 
+        padding: 20px; 
+        margin-bottom: 20px; 
+        cursor: pointer;
+        transition: all 0.3s ease;
+        background-color: transparent;
+    "
+    onmouseover="this.style.backgroundColor='#008AFF'; this.querySelector('h3').style.color='white'; this.querySelector('p').style.color='white';"
+    onmouseout="this.style.backgroundColor='transparent'; this.querySelector('h3').style.color='#008AFF'; this.querySelector('p').style.color='#404040';">
+
             <h3 style="color: #008AFF;">Sheet Music</h3>
             <p style="color: #404040;">Drum transcriptions for random stuff i guess lol</p>
         </div>
