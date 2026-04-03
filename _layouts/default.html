@@ -1,6 +1,0 @@
---- layout: base ---
-{% if page.before-content %}
-{% for file in page.before-content %} {% include {{ file }} %} {% endfor %}
-{% endif %} {{ content }} {% if page.after-content %}
-{% for file in page.after-content %} {% include {{ file }} %} {% endfor %}
-{% endif %}
