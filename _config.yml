@@ -12,12 +12,9 @@ social-network-links:
   github: rhbi-auk
 
 avatar: "/assets/img/number cruncher.png"
-round-avatar: false
+round-avatar: true
 
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-remote-theme
-
-site-js:
-  - "/assets/js/disclaimer.js"
