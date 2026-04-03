@@ -11,10 +11,13 @@ social-network-links:
   email: "reginabi@outlook.co.nz"
   github: rhbi-auk
 
+avatar: "/assets/img/number_cruncher.png"
+round-avatar: false
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-remote-theme
 
 site-js:
-  - "/Sheet-Music/assets/js/disclaimer.js"
+  - "/assets/js/disclaimer.js"
