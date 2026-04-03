@@ -3,9 +3,7 @@ author: rhbi-auk
 remote_theme: daattali/beautiful-jekyll
 
 navbar-links:
-  Sheet Music:
-    - Persona: "persona"
-    - RWBY: "rwby"
+  Sheet Music: "sheet-music"
   Takadimi: "takadimi"
   About: "about"
 
