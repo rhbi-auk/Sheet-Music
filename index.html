@@ -1,123 +1,13 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Sheet Music</title>
-    <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-    <header>
-        <h1>Currently available sheet music:</h1>
-        <p class="note">this website and list is a massive work-in-progress. note that asterisk (*) means it is an old transcription and very likely to change. <b>ALL TRANSCRIPTIONS ARE MY OWN!</b></p>
+---
+layout: default
+title: Sheet Music
+---
 
-    </header>
-
-    <main>
-        <h2 id="drum-sheet-music">Drum sheet music<h2>
-            <div>
-                <h3 class="category">Persona</h3>
-                <!--Memories of You-->
-                <div class="sheet-container">
-                    <div class="container-contents">
-                        <h4 class="song-label">Song name: <span class="song-name">Persona 3 Reload - Memories of You</span></h4>
-                        <h4 class="artist-label">Artist: <span class="song-artist">Azumi Takahashi, ATLUS Sound Team</span></h4>
-                        <div class="sheet-music-options">
-                            <h4 class="sheet-music-label">Sheet Music:</h4> 
-                                <ul class="sheet-music-url">
-                                    <li class="url-list">
-                                        <a class="soundslice-url" href="https://www.soundslice.com/slices/MjzXc/">SOUNDSLICE</a>
-                                    </li>
-                                    <li class="url-list">
-                                        <a class="download-url">PDF DOWNLOAD</a>
-                                    </li>
-                                </ul>
-                        </div>
-                    </div>
-                </div>
-                <!--I'll Face Myself-->
-                <div class="sheet-container">
-                    <div class="container-contents">
-                        <h4 class="song-label">Song name: <span class="song-name">Persona 4 - I'll Face Myself (Battle)</span></h4>
-                        <h4 class="artist-label">Artist: <span class="song-artist">Shihoko Hirata, ATLUS Sound Team</span></h4>
-                        <div class="sheet-music-options">
-                            <h4 class="sheet-music-label">Sheet Music:</h4> 
-                                <ul class="sheet-music-url">
-                                    <li class="url-list">
-                                        <a class="soundslice-url" href="https://www.soundslice.com/slices/9CdHc/">SOUNDSLICE</a>
-                                    </li>
-                                    <li class="url-list">
-                                        <a class="download-url" href="documents/I'll Face Myself -Battle-.pdf">PDF DOWNLOAD</a>
-                                    </li>
-                                </ul>
-                        </div>
-                    </div>
-                </div>
-                <!--Today-->
-                <div class="sheet-container">
-                    <div class="container-contents">
-                        <h4 class="song-label">Song name: <span class="song-name">Persona 4 Arena Ultimax - Today</span></h4>
-                        <h4 class="artist-label">Artist: <span class="song-artist">Yumi Kawamura, ATLUS Sound Team</span></h4>
-                        <div class="sheet-music-options">
-                            <h4 class="sheet-music-label">Sheet Music:</h4> 
-                                <ul class="sheet-music-url">
-                                    <li class="url-list">
-                                        <a class="soundslice-url" href="https://www.soundslice.com/slices/HsQJc/">SOUNDSLICE</a>
-                                    </li>
-                                    <li class="url-list">
-                                        <a class="download-url" href="documents/Today.pdf">PDF DOWNLOAD</a>
-                                    </li>
-                                </ul>
-                        </div>
-                    </div>
-                </div>
-                <!--Nothing is Promised-->
-                <div class="sheet-container">
-                    <div class="container-contents">
-                        <h4 class="song-label">Song name: <span class="song-name">Persona Q2 - Nothing is Promised</span></h4>
-                        <h4 class="artist-label">Artist: <span class="song-artist">Lotus Juice, ATLUS Sound Team</span></h4>
-                        <div class="sheet-music-options">
-                            <h4 class="sheet-music-label">Sheet Music:</h4> 
-                                <ul class="sheet-music-url">
-                                    <li class="url-list">
-                                        <a class="soundslice-url" href="https://www.soundslice.com/slices/MrnJc/">SOUNDSLICE</a>
-                                    </li>
-                                    <li class="url-list">
-                                        <a class="download-url" href="documents/Nothing is Promised.pdf">PDF DOWNLOAD</a>
-                                    </li>
-                                </ul>
-                        </div>
-                    </div>
-                </div>
-                <h3 class="category">RWBY*</h3>
-                <!--This Will Be the Day-->
-                <div class="sheet-container">
-                    <div class="container-contents">
-                        <h4 class="song-label">Song name: <span class="song-name">RWBY - This Will Be the Day</span></h4>
-                        <h4 class="artist-label">Artist: <span class="song-artist">Jeff Williams feat. Casey Lee Williams</span></h4>
-                        <div class="sheet-music-options">
-                            <h4 class="sheet-music-label">Sheet Music:</h4> 
-                                <ul class="sheet-music-url">
-                                    <li class="url-list">
-                                        <a class="soundslice-url" href="https://www.soundslice.com/slices/y-j3c/">SOUNDSLICE</a>
-                                    </li>
-                                    <li class="url-list">
-                                        <a class="download-url" href="documents/This Will Be The Day.pdf">PDF DOWNLOAD</a>
-                                    </li>
-                                </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </main>
-
-    <footer>
-        <p>&copy; <span id="year"></span> no copyright, i don't own the songs nor do i make money off this.</p>
-    </footer>
-
-    <script>
-        // set current year
-        document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
-</body>
-</html>
+<main>
+    <h2>Drum Sheet Music</h2>
+    <p>Browse by category:</p>
+    <ul>
+        <li><a href="/Sheet-Music/persona">Persona</a></li>
+        <li><a href="/Sheet-Music/rwby">RWBY</a></li>
+    </ul>
+</main>
