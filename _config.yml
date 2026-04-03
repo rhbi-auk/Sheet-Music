@@ -3,8 +3,11 @@ author: rhbi-auk
 remote_theme: daattali/beautiful-jekyll
 
 navbar-links:
-  Persona: "persona"
-  RWBY: "rwby"
+  Sheet Music:
+    - Persona: "persona"
+    - RWBY: "rwby"
+  Takadimi: "takadimi"
+  About: "about"
 
 social-network-links:
   email: "reginabi@outlook.co.nz"
