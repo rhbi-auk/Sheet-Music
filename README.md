@@ -6,3 +6,4 @@ https://rhbi-auk.github.io
 ![GitHub last commit](https://img.shields.io/github/last-commit/rhbi-auk/rhbi-auk.github.io)
 ![GitHub repo size](https://img.shields.io/github/repo-size/rhbi-auk/rhbi-auk.github.io)
 
+Find all my personal projects here.
