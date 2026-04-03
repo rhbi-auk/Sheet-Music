@@ -1,4 +1,4 @@
-title: Sheet Music
+title: My Projects
 author: rhbi-auk
 remote_theme: daattali/beautiful-jekyll
 
@@ -14,3 +14,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-remote-theme
+
+site-js:
+  - "/Sheet-Music/assets/js/disclaimer.js"
