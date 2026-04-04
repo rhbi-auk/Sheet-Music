@@ -3,6 +3,7 @@ author: rhbi-auk
 remote_theme: daattali/beautiful-jekyll
 
 navbar-links:
+  Home: "index"
   Sheet Music: "sheet-music"
   Takadimi: "takadimi"
   About: "about"
